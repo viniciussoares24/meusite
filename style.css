@@ -1,0 +1,133 @@
+@charset "UFT-8";
+
+:root{
+    --cor0:#0B2559;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient( to top, #6A85E6, #B6DEE6);
+    background-attachment: fixed;
+   
+}
+@font-face {
+    font-family: 'Hey comic';
+    src: url(fonts/Hey\ Comic.otf);
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
+main{
+    background-color: rgba(213, 212, 224, 0.645);
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
+    width: 650px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    font-family:'hey comic', serif;
+}
+ h2{
+    color: rgba(8, 7, 13, 0.666);
+    font-family:'hey comic', serif;
+  
+}
+h2#principal{
+    color: rgb(43, 91, 74);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+} 
+.avançado{
+    font-style: italic;
+    
+}
+.sociais{
+    color: #0532d5;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.principal{
+    font-style: italic;
+}
+p{
+    font-family:  "Cascadia Code", sans-serif ;
+    text-align: justify;
+}
+img{
+    border-radius: 55px;
+}
+
+
+li{
+  
+  font-family: "Ancizar Serif", serif;
+  font-weight: bold;
+  text-align: justify;
+  
+}
+div > p{
+   display: none;
+}
+div:hover > p{
+    display: block;
+    background-color: black;
+    color: azure;
+}
+div:hover{
+    color: rgb(3, 19, 252);
+}
+.l1{
+    text-decoration: none;
+}
+.l1:hover{
+    text-decoration: underline;
+}
+.l1::before{
+    content: "⇐";
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+   
+}
+.l1::after{
+    content:"⇒" ;
+    color: rgb(0, 0, 0);
+}
+.l1:active{
+    color: #0026ff;}
+.l2{
+   color: rgb(6, 6, 6);
+   text-decoration: none;
+}
+.l2:hover{
+    text-decoration: underline;
+}
+.l2::before{
+    content: "⇐";
+    color: rgb(0, 0, 0);
+}
+.l2::after{
+    content: "⇒" ;
+   color: rgb(6, 5, 4);
+} 
+.l2:active{
+    color: #001eff;
+}
+a:visited{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+footer{
+    background-color: var(--cor0);
+    color: #B6DEE6;
+    text-align: center;
+    margin-top: 15px;
+}
+footer > strong{
+    color: white;
+}
+
+
