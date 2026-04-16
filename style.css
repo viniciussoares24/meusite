@@ -6,6 +6,7 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 body{
     background-image: linear-gradient( to top, #6A85E6, #B6DEE6);
@@ -37,7 +38,7 @@ h1{
   
 }
 h2#principal{
-    color: rgb(43, 91, 74);
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
 } 
@@ -46,7 +47,7 @@ h2#principal{
     
 }
 .sociais{
-    color: #0532d5;
+    color: #101320;
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -85,6 +86,7 @@ div:hover{
 }
 .l1:hover{
     text-decoration: underline;
+    
 }
 .l1::before{
     content: "⇐";
@@ -124,7 +126,9 @@ footer{
     background-color: var(--cor0);
     color: #B6DEE6;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 8px;
 }
 footer > strong{
     color: white;
